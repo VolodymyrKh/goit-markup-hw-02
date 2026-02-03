@@ -1,0 +1,206 @@
+/* === VARIABLES === */
+:root {
+  --primary-font: "Roboto", Arial;
+  --secondary-font: "Raleway", sans-serif;
+
+	--iris: rgb(77 90 229);
+	--ocean: rgb(64 75 191);
+	--navy-blue: rgb(46 47 66);
+	--green: rgb(49 208 170);
+	--slate: rgb(67 68 85);
+	--light-slate: rgb(142 143 153);
+	--cornflower: rgb(231 233 252);
+	--cloud: rgb(244 244 253);
+	--navy-blue-modal: rgba(46 47 66 / 0.4);
+	--grey: rgba(46 47 66 / 0.7);
+	--white: rgb(255 255 255);
+	--dairy: rgb(252 252 252);
+}
+/* === /VARIABLES ==== */
+
+/* ==== COMMON STYLES === */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--primary-font), sans-serif;
+  color: var(--navy-blue);
+  background-color: var(--white);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.accent-color {
+  color: var(--iris);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* === HEADER STYLES === */
+.page-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-list-link {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--ocean);
+}
+
+/* === /HEADER STYLES === */
+
+/* === HERO STYLES=== */
+.hero-section {
+  background-color: var(--navy-blue);
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.order-btn {
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0 0 0 / 0.15);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--ocean);
+}
+/* === /HERO STYLES === */
+
+/* === FEATURES STYLES === */
+.features-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-list-content {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* === /FEATURES STYLES === */
+
+/* === TEAM STYLES === */
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-list-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: var(--white);
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* === /TEAM STYLES === */
+
+/* === PORTFOLIO STYLES === */
+.portfolio-list-item {
+  background-color: var(--white);
+}
+
+.portfolio-list-content {
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+}
+
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* === /PORTFOLIO STYLES === */
+
+/* === FOOTER STYLES === */
+.page-footer {
+  background: var(--navy-blue);
+  color: var(--cloud);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* === /FOOTER STYLES === */
